@@ -1,8 +1,28 @@
+
 import React from 'react'
+import SelectField from '../components/SelectField'
+import { Box, Button } from '@mui/material'
+import TextFieldComp from '../components/TextFieldComp'
 
 const Settings = () => {
+const handleSubmit = (e) => {
+  e.preventDefault()
+
+}
+
   return (
-    <div>Settings</div>
+    <form onSubmit={handleSubmit}>
+      <SelectField label ="Category" />
+      <SelectField label ="Difficulty" />
+      <SelectField label ="Type" />
+      <TextFieldComp/>
+      <Box mt={3} width={"100%"}>
+      <Button fullWidth variant='contained' type='submit'> Get Started </Button>
+
+      </Box>
+
+
+    </form>
   )
 }
 
