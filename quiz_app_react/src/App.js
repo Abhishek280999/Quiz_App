@@ -9,7 +9,7 @@ function App() {
   return (
     <Router >
       <>
-        <Route path='/'>
+        <Route path='/' exact>
           <Settings />
         </Route>
         <Route path='/questions'>
