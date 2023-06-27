@@ -6,7 +6,7 @@ const TextFieldComp = () => {
     };
   return (
     <Box mt={3} width={"100%"}>
-        <FormControl fullWidth>
+        <FormControl fullWidth size='small'>
             <TextField onChange={handleChange}
                 variant='outlined'
                 label = 'Amount of Questions'
