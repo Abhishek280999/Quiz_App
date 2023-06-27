@@ -1,9 +1,9 @@
 import React from 'react'
 
-const FinalScreen = () => {
+const FinalScore = () => {
   return (
     <div>FinalScreen</div>
   )
 }
 
-export default FinalScreen
+export default FinalScore
