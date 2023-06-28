@@ -9,9 +9,8 @@ const Questions = () => {
     question_difficulty,
     question_type,
     amount_of_question,
-    score,
   } = useSelector((state)=> state)
-  console.log(amount_of_question)
+  console.log(amount_of_question, question_category ,question_difficulty,question_type)
   let apiUrl = '/api.php?amount=10'
   const {response , error , loading } = useAxios({url: apiUrl})
   return (

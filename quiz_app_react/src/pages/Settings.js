@@ -15,7 +15,6 @@ const Settings = () => {
     return (
       <Box mt={20}>
       <CircularProgress/>
-
       </Box>
     )
    }
@@ -29,6 +28,7 @@ const Settings = () => {
 const handleSubmit = (e) => {
   e.preventDefault()
   history.push("/questions");
+  console.log(history.location.pathname);
 
 }
 
