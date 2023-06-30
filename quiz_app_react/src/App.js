@@ -5,10 +5,12 @@ import Settings from './pages/Settings';
 import Questions from './pages/Questions';
 import FinalScore from './pages/FinalScore';
 import { Box, Container, Typography } from '@mui/material'
+import ButtonAppBar from './components/ButtonAppBar';
 
 function App() {
   return (
     <Router >
+    <ButtonAppBar/>
     <Container maxWidth='sm'>
       <Box textAlign={'center'} mt={5}>
         <Switch>
