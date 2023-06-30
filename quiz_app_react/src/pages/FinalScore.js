@@ -23,7 +23,7 @@ const FinalScore = () => {
         Final Score {score}
       </Typography>
       <Button onClick={handleBackToSettings} variant="outlined">
-        back to settings!
+        back to Home Page!
       </Button>
     </Box>
   )
